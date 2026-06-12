@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Report Config]]>
+    </line>
+    <line>
+      <![CDATA[DB open]]>
+    </line>
+    <line>
+      <![CDATA[launched browser]]>
+    </line>
+    <line>
+      <![CDATA[login]]>
+    </line>
+    <line>
+      <![CDATA[prod]]>
+    </line>
+    <line>
+      <![CDATA[logout]]>
+    </line>
+    <line>
+      <![CDATA[closed browser]]>
+    </line>
+    <line>
+      <![CDATA[launched browser]]>
+    </line>
+    <line>
+      <![CDATA[login]]>
+    </line>
+    <line>
+      <![CDATA[logout]]>
+    </line>
+    <line>
+      <![CDATA[closed browser]]>
+    </line>
+    <line>
+      <![CDATA[DB close]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2026-03-26T11:41:06 IST" name="Suite" finished-at="2026-03-26T11:41:22 IST" duration-ms="15726">
+    <groups>
+      <group name="regression">
+        <method signature="CampaignTest.toCreateCampaignWithMandatoryFieldsTest()[pri:0, instance:Campaign.CampaignTest@1afd44cb]" name="toCreateCampaignWithMandatoryFieldsTest" class="Campaign.CampaignTest"/>
+        <method signature="ProductTest.toCreateProdTest()[pri:0, instance:Product.ProductTest@1dde4cb2]" name="toCreateProdTest" class="Product.ProductTest"/>
+      </group> <!-- regression -->
+    </groups>
+    <test started-at="2026-03-26T11:41:06 IST" name="Test" finished-at="2026-03-26T11:41:22 IST" duration-ms="15726">
+      <class name="Product.ProductTest">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:Product.ProductTest@1dde4cb2]" started-at="2026-03-26T11:41:06 IST" name="beforeSuite" finished-at="2026-03-26T11:41:06 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[DB open]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:Product.ProductTest@1dde4cb2]" started-at="2026-03-26T11:41:06 IST" name="beforeClass" finished-at="2026-03-26T11:41:08 IST" duration-ms="1842" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[launched browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Product.ProductTest@1dde4cb2]" started-at="2026-03-26T11:41:08 IST" name="beforeMethod" finished-at="2026-03-26T11:41:12 IST" duration-ms="3401" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="toCreateProdTest()[pri:0, instance:Product.ProductTest@1dde4cb2]" started-at="2026-03-26T11:41:12 IST" name="toCreateProdTest" finished-at="2026-03-26T11:41:12 IST" duration-ms="352" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[prod]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- toCreateProdTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Product.ProductTest@1dde4cb2]" started-at="2026-03-26T11:41:12 IST" name="afterMethod" finished-at="2026-03-26T11:41:13 IST" duration-ms="1331" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:Product.ProductTest@1dde4cb2]" started-at="2026-03-26T11:41:13 IST" name="afterClass" finished-at="2026-03-26T11:41:14 IST" duration-ms="269" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[closed browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:Product.ProductTest@1dde4cb2]" started-at="2026-03-26T11:41:22 IST" name="afterSuite" finished-at="2026-03-26T11:41:22 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[DB close]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- Product.ProductTest -->
+      <class name="Campaign.CampaignTest">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:Campaign.CampaignTest@1afd44cb]" started-at="2026-03-26T11:41:14 IST" name="beforeClass" finished-at="2026-03-26T11:41:15 IST" duration-ms="970" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[launched browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Campaign.CampaignTest@1afd44cb]" started-at="2026-03-26T11:41:15 IST" name="beforeMethod" finished-at="2026-03-26T11:41:19 IST" duration-ms="4104" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="toCreateCampaignWithMandatoryFieldsTest()[pri:0, instance:Campaign.CampaignTest@1afd44cb]" started-at="2026-03-26T11:41:19 IST" name="toCreateCampaignWithMandatoryFieldsTest" finished-at="2026-03-26T11:41:21 IST" duration-ms="2145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toCreateCampaignWithMandatoryFieldsTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Campaign.CampaignTest@1afd44cb]" started-at="2026-03-26T11:41:21 IST" name="afterMethod" finished-at="2026-03-26T11:41:22 IST" duration-ms="1055" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:Campaign.CampaignTest@1afd44cb]" started-at="2026-03-26T11:41:22 IST" name="afterClass" finished-at="2026-03-26T11:41:22 IST" duration-ms="210" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[closed browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- Campaign.CampaignTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

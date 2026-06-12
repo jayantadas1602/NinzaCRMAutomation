@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Report Config]]>
+    </line>
+    <line>
+      <![CDATA[DB open]]>
+    </line>
+    <line>
+      <![CDATA[launched browser]]>
+    </line>
+    <line>
+      <![CDATA[login]]>
+    </line>
+    <line>
+      <![CDATA[logout]]>
+    </line>
+    <line>
+      <![CDATA[closed browser]]>
+    </line>
+    <line>
+      <![CDATA[DB close]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2026-03-26T11:40:13 IST" name="Default suite" finished-at="2026-03-26T11:40:27 IST" duration-ms="14732">
+    <groups>
+      <group name="smoke">
+        <method signature="CampaignTest.toCreateCampaignEithExpectedDateTest()[pri:0, instance:Campaign.CampaignTest@6b2ea799]" name="toCreateCampaignEithExpectedDateTest" class="Campaign.CampaignTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2026-03-26T11:40:13 IST" name="Default test" finished-at="2026-03-26T11:40:27 IST" duration-ms="14732">
+      <class name="Campaign.CampaignTest">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:Campaign.CampaignTest@6b2ea799]" started-at="2026-03-26T11:40:13 IST" name="beforeSuite" finished-at="2026-03-26T11:40:13 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[DB open]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:Campaign.CampaignTest@6b2ea799]" started-at="2026-03-26T11:40:13 IST" name="beforeClass" finished-at="2026-03-26T11:40:14 IST" duration-ms="1887" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[launched browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Campaign.CampaignTest@6b2ea799]" started-at="2026-03-26T11:40:15 IST" name="beforeMethod" finished-at="2026-03-26T11:40:20 IST" duration-ms="5777" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="toCreateCampaignEithExpectedDateTest()[pri:0, instance:Campaign.CampaignTest@6b2ea799]" started-at="2026-03-26T11:40:20 IST" name="toCreateCampaignEithExpectedDateTest" finished-at="2026-03-26T11:40:26 IST" duration-ms="5370" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toCreateCampaignEithExpectedDateTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Campaign.CampaignTest@6b2ea799]" started-at="2026-03-26T11:40:26 IST" name="afterMethod" finished-at="2026-03-26T11:40:27 IST" duration-ms="1210" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:Campaign.CampaignTest@6b2ea799]" started-at="2026-03-26T11:40:27 IST" name="afterClass" finished-at="2026-03-26T11:40:27 IST" duration-ms="423" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[closed browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:Campaign.CampaignTest@6b2ea799]" started-at="2026-03-26T11:40:27 IST" name="afterSuite" finished-at="2026-03-26T11:40:27 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[DB close]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- Campaign.CampaignTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
