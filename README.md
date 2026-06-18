@@ -92,17 +92,17 @@ Each CRM module has a dedicated Page class containing all web element locators a
 
 ## Modules Automated
 
-### Products Module
-- Add new product
-- Edit product details
-- Delete product
-- Verify product listing
-
 ### Campaigns Module
 - Create campaign
 - Edit campaign
 - Delete campaign
 - Cross-browser campaign verification (Chrome & Edge)
+
+### Products Module
+- Add new product
+- Edit product details
+- Delete product
+- Verify product listing
 
 ---
 
